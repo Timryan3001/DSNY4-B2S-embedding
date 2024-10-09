@@ -1,0 +1,73 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Fieldset Styling */
+fieldset {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+  font-size: 1.2rem;
+  color: #555;
+  padding: 0 10px;
+}
+
+/* Button Styling */
+input[type="button"] {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+  background-color: #333;
+}
+
+#oregon_and_washington {
+  background-color: #666;
+}
+
+/* Content Section */
+.content {
+  margin-top: 20px;
+}
+
+tableau-viz {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
